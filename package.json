@@ -1,0 +1,17 @@
+{
+  "name": "discord-bot-database",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Discord verification and staff database bot with Roblox profile modals.",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.4.7"
+  }
+}
